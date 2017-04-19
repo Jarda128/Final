@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<film-app>
+<nastaveni-app>
+    <jazyk>CZ</jazyk>
+    <plug>
+        <komentar>1</komentar>
+        <online-pomoc>1</online-pomoc>
+        <hodnoceni-filmu>1</hodnoceni-filmu>
+        <vyhledavani>1</vyhledavani>
+    </plug>   
+    <kontakt-admin>jardatesar@knihovna.cz</kontakt-admin>
+    <media>
+        <twitter>wwww.twitter.com/knihy</twitter>
+        <facebook>wwww.facebook.com/knihy</facebook>        
+    </media>
+    <adata>
+        <grafika>
+            <background-color style="bold">Červená</background-color>
+            <font>Times New Roman</font>
+            <font-color>Modrá</font-color>
+            <font-size>12</font-size>
+        </grafika>
+    </adata>
+</nastaveni-app>
+
+
+    
+    
+<prava>
+    <typ-prav Pravo="Host">
+        <sledovani>0</sledovani>
+        <recenze>0</recenze>
+        <hodnoceni>0</hodnoceni>
+        <mazani-filmu>0</mazani-filmu>
+        <pridavani-filmu>0</pridavani-filmu>
+        <uprava-zanru>0</uprava-zanru>
+    </typ-prav>
+    <typ-prav Pravo="Uzivatel">
+        <sledovani>1</sledovani>
+        <recenze>1</recenze>
+        <hodnoceni>1</hodnoceni>
+        <mazani-filmu>0</mazani-filmu>
+        <pridavani-filmu>0</pridavani-filmu>
+        <uprava-zanru>0</uprava-zanru>
+    </typ-prav>
+    <typ-prav Pravo="Administrator">
+        <sledovani>1</sledovani>
+        <recenze>1</recenze>
+        <hodnoceni>1</hodnoceni>
+        <mazani-filmu>1</mazani-filmu>
+        <pridavani-filmu>1</pridavani-filmu>
+        <uprava-zanru>1</uprava-zanru>
+    </typ-prav>
+</prava>
+   
+    <uzivatel>
+            <osoba ido="1">
+                <jmeno length="20">Návštěvník</jmeno>
+                <prijmeni length="20"></prijmeni>
+                <prihlas-jmeno>host</prihlas-jmeno>
+                <prihlas-heslo slozitost="zap">agSghG86</prihlas-heslo>
+                <typ-prav>Host</typ-prav>
+            </osoba>
+            <osoba ido="2">
+                <jmeno length="20">Filip</jmeno>
+                <prijmeni length="20">Joshua</prijmeni>
+                <prihlas-jmeno>filip123</prihlas-jmeno>
+                <prihlas-heslo slozitost="zap">kraAl098</prihlas-heslo>
+                <typ-prav>Uživatel</typ-prav>
+            </osoba>
+            <osoba ido="3">
+                <jmeno length="20">Admin</jmeno>
+                <prijmeni length="20"></prijmeni>
+                <prihlas-jmeno>Admin</prihlas-jmeno>
+                <prihlas-heslo slozitost="zap">Admin123</prihlas-heslo>
+                <typ-prav>Admin</typ-prav>
+            </osoba>
+    </uzivatel>
+
+    <kino>
+        <typkina typ="Premiéra">
+            <nazevkina>Kino Anděl</nazevkina>
+            <filmid>"war001"</filmid>
+            <filmid>"war002"</filmid>
+            <filmid>"anim001"</filmid>
+        </typkina>
+        <typkina typ="Malá">
+            <nazevkina>Kino Zličín</nazevkina>
+            <filmid>"war003"</filmid>
+        </typkina>  
+        <typkina typ="Velká">
+            <nazevkina>Kino Flora</nazevkina>
+            <filmid>"sport001"</filmid>
+        </typkina>    
+        <typkina typ="Velká">
+            <nazevkina>Kino Hostivař</nazevkina>
+            <filmid>"muzik001"</filmid>
+        </typkina>    
+        <typkina typ="Malá">
+            <nazevkina>Kino Želivského</nazevkina>
+            <filmid>"roman001"</filmid>
+        </typkina>      
+    </kino>
+    
+    
+    <zanry>
+        <valecna>
+              <film id="war001">
+                <zanr type="radio">Válečný</zanr>
+                <nazev>Zachraňte vojína Rayena</nazev>
+                <pujceni aktualizace="zap">Ano</pujceni>
+                <kino aktualizace="zap">Ano</kino>
+                <rok>2014</rok>
+                <delka konfigurator="zap">120</delka>
+                <jazyk>CZ</jazyk>
+                <titulky aktualizace="zap">Ne</titulky>
+                <herec>Tom Hanks</herec>
+              </film>
+              <film id="war002">
+                <zanr type="radio">Válečný</zanr>
+                <nazev>Tenká červená linie</nazev>
+                <pujceni aktualizace="zap">Ne</pujceni>
+                <kino aktualizace="zap">Ano</kino>
+                <rok>2008</rok>
+                <delka konfigurator="zap">120</delka>
+                <jazyk>CZ</jazyk>
+                <titulky aktualizace="zap">Ne</titulky>
+                <herec>Mel Gibson</herec>
+              </film>
+              <film id="war003">
+                <zanr type="radio">Válečný</zanr>
+                <nazev>Nepřítel před branami</nazev>
+                <pujceni aktualizace="zap">Ano</pujceni>
+                <kino aktualizace="zap">Ne</kino>
+                <rok>1998</rok>
+                <delka konfigurator="zap">220</delka>
+                <jazyk>RU</jazyk>
+                <titulky aktualizace="zap">Ano</titulky>
+                <herec>Alexander Kozlov</herec>
+              </film>            
+        </valecna>
+        <sportovni>
+              <film id="sport001">
+                <zanr type="radio">Sportovní</zanr>
+                <nazev>Rychle a zběsile: 1</nazev>
+                <pujceni aktualizace="zap">Ano</pujceni>
+                <kino aktualizace="zap">Ne</kino>
+                <rok>1999</rok>
+                <delka konfigurator="zap">150</delka>
+                <jazyk>CZ</jazyk>
+                <titulky aktualizace="zap">Ne</titulky>
+                <herec>Paul Walker</herec>
+              </film>
+        </sportovni>
+        <muzikal>
+              <film id="muzik001">
+                <zanr type="radio">Muzikální</zanr>
+                <nazev>Láska nebeská</nazev>
+                <pujceni aktualizace="zap">Ano</pujceni>
+                <kino aktualizace="zap">Ne</kino>
+                <rok>2016</rok>
+                <delka konfigurator="zap">90</delka>
+                <jazyk>CZ</jazyk>
+                <titulky aktualizace="zap">Ne</titulky>
+                <herec>Brad Pitt</herec>
+              </film>
+        </muzikal>
+        <romantika>
+            <film id="roman001">
+                <zanr type="radio">romantika</zanr>
+                <nazev>Titanik</nazev>
+                <pujceni aktualizace="zap">Ano</pujceni>
+                <kino aktualizace="zap">Ne</kino>
+                <rok>2003</rok>
+                <delka konfigurator="zap">120</delka>
+                <jazyk>CZ</jazyk>
+                <titulky aktualizace="zap">Ne</titulky>
+                <herec>Leonardo DiCaprio</herec>
+              </film>
+        </romantika>
+        <animovany>
+            <film id="anim001">
+                <zanr type="radio">Animovaný</zanr>
+                <nazev>Já Padouch</nazev>
+                <pujceni aktualizace="zap">Ne</pujceni>
+                <kino aktualizace="zap">Ano</kino>
+                <rok>2014</rok>
+                <delka konfigurator="zap">100</delka>
+                <jazyk>CZ</jazyk>
+                <titulky aktualizace="zap">Ne</titulky>
+                <herec>Steve Carell</herec>
+              </film>
+        </animovany>
+    </zanry>
+</film-app>
